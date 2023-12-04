@@ -1,0 +1,21 @@
+.head {
+  h1 {
+    font-size: 32px;
+    border-bottom: 3px solid black;
+    width: fit-content;
+    margin: 1rem auto;
+    // animation-name: headAnim;
+    // animation-iteration-count: infinite;
+    // animation-duration: 1s;
+    animation: headAnim 1s infinite;
+  }
+}
+
+@keyframes headAnim {
+  from {
+    text-shadow: 3px 3px 5px #6e4a06;
+  }
+  to {
+    text-shadow: 3px 3px 5px #c48716;
+  }
+}

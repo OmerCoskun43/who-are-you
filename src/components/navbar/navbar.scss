@@ -1,0 +1,46 @@
+.nav-bar {
+  background-color: #c48716;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+
+  .maded {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    h2 {
+      margin-top: 10px;
+      color: rgb(43, 255, 0);
+    }
+  }
+
+  .links a {
+    margin-right: 1.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 10px;
+
+    &:hover {
+      background-color: black;
+      color: #c48716;
+      border-radius: 1rem;
+      padding: 0px 15px;
+    }
+  }
+  img {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+}
